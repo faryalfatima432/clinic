@@ -3,4 +3,5 @@ django-tailwind
 pillow
 psycopg2
 python-dotenv
-
+# django-ckeditor5
+django_ckeditor_5

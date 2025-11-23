@@ -1,0 +1,8 @@
+body.app-blog.model-blog.change-form .ck-editor__editable,
+body.app-blog.model-blog.change-form .ck-content,
+body.app-blog.model-blog.change-form .ck-editor__editable_inline{
+    color: black !important;
+}
+body.app-blog.model-blog.change-form .ck-content p{
+    color: black !important;
+}
