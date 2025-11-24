@@ -12,3 +12,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
     
+class Comment(models.Model):
+    blog=models.ForeignKey(Blog,on_delete=models.CASCADE,related_name="comments")
+    user=models.ForeignKey(User,on_delete=models.CASCADE)
+    comment=models.TextField()
